@@ -18,10 +18,16 @@ header, footer {
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
-.about-section img {
-    display: block;
-    margin: 0 auto; /* Centers the image */
+.about-section {
+    text-align: center; /* Centers all child elements */
 }
+.about-section img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    display: block; /* Ensures no extra space around the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    }
 nav a {
     text-decoration: none;
     color: #333;
